@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+message SomeThing {
+    int32 age = 1;
+    string name = 2;
+    bytes mahdi = 3;
+}
+
+message ListItem {
+    int32 commodity_id = 1;
+    bool has_video = 2;
+    string description = 3;
+
+    enum DeviceType {
+        ANDROID = 0;
+        IOS = 1;
+    }
+    DeviceType device = 4;
+    uint64 jannati_age = 5;
+    sint32 some_value = 6;
+    bool is_valid = 7;
+    bytes serialized_val = 8;
+    SomeThing something = 9;cr
+}
+
+message List {
+    repeated ListItem listItem = 1;
+}
