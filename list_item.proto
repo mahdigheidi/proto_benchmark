@@ -20,7 +20,7 @@ message ListItem {
     sint32 some_value = 6;
     bool is_valid = 7;
     bytes serialized_val = 8;
-    SomeThing something = 9;cr
+    SomeThing something = 9;
 }
 
 message List {
